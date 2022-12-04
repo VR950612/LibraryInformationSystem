@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QLabel" name="label_Facebook">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>520</y>
+     <width>63</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_RenewBook">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>450</y>
+     <width>131</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: blue;
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Renew Book ?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Twitter">
+   <property name="geometry">
+    <rect>
+     <x>228</x>
+     <y>520</y>
+     <width>63</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Signup">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>100</y>
+     <width>131</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: blue;
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Signup</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Youtube">
+   <property name="geometry">
+    <rect>
+     <x>158</x>
+     <y>519</y>
+     <width>63</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ReturnBook">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>490</y>
+     <width>131</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: blue;
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Return Book ?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Logo">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>261</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_SearchBar">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>50</y>
+     <width>341</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Infomation">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>530</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: blue;
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Information</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Contact">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>490</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: blue;
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Contact Us</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Instagram">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>520</y>
+     <width>63</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_LibraryPic">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>170</y>
+     <width>450</width>
+     <height>230</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Login">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>50</y>
+     <width>131</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+qproperty-icon: url(:/user.png);
+qproperty-iconSize: 26px 26px;
+text-align: center;
+color: white;
+background-color: blue;
+}</string>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_AboutUs">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>450</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: blue;
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>About Us</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>140</y>
+     <width>301</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>High Tower Text</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Welcome to our library !!!
+
+The motto of our library is to provide quiet
+ and happy atmosphere to everyone and
+especislly to students for focusing on their studies.
+
+Use our printer option for printing and
+scan the documents.
+
+You can become a member of our Library !!</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

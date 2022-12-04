@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>589</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_Logo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>261</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>721</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px;
+</string>
+   </property>
+   <property name="text">
+    <string>Our Collection Development Policy has four guiding principles:
+1). collections that reflect Auckland’s diverse communities
+2). commitment to Māori knowledge
+3). commitment to the principle of freedom of access to information
+4). applying best value for the people of Auckland to purchasing and managing the collections.
+History: - 
+In 1918, the separate children's section of the central library opened and nonfiction was classified under the
+Dewey Decimal system. Branch libraries opened:
+Grafton (1913)
+Parnell (1913)
+Remuera (1915)
+Epsom (1918)
+Grey Lynn (1924)
+Point Chevalier (1926)
+Tamaki (now known as St Heliers) 1931
+Avondale (1931).</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonOkay">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>520</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Okay</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
